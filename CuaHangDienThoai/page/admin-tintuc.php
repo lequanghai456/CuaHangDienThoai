@@ -1,0 +1,10 @@
+<?php
+	$level="../";
+	include($level."config.php");
+	include($level.Content."data-admin-tintuc.php");
+	$_isMeoVat=false;
+	$_isSanPham=false;
+	$_isTinTuc=true;
+	$_isTaiKhoan=false;
+	include($level.PAGE."layout-admin.php")
+?>

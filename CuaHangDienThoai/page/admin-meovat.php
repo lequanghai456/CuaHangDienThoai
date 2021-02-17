@@ -1,0 +1,10 @@
+<?php
+	$level="../";
+	include($level."config.php");
+	include($level.Content."data-admin-meovat.php");
+	$_isMeoVat=true;
+	$_isSanPham=false;
+	$_isTinTuc=false;
+	$_isTaiKhoan=false;
+	include($level.PAGE."layout-admin.php");
+?>
